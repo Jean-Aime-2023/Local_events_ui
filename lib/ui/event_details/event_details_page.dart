@@ -16,16 +16,12 @@ class EventDetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Provider<Event>.value(
-        value: event,
-        child: Stack(
-          fit: StackFit.expand,
-          children: [
-            EventDetailBackground(),
-            EvlentDetailsContent()
-          ],
-        ),
-      )
-    );
+        body: Provider<Event>.value(
+      value: event,
+      child: Stack(
+        fit: StackFit.expand,
+        children: [EventDetailBackground(), EvlentDetailsContent()],
+      ),
+    ));
   }
 }
