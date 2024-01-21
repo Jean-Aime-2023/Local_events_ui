@@ -22,7 +22,7 @@ class EventDetailsPage extends StatelessWidget {
           fit: StackFit.expand,
           children: [
             EventDetailBackground(),
-            EventDetailContent()
+            EvlentDetailsContent()
           ],
         ),
       )
