@@ -31,9 +31,8 @@ class EventWidget extends StatelessWidget {
                 fit: BoxFit.fitWidth,
               ),
             ),
-
             Padding(
-              padding: const EdgeInsets.only(top:8.0,left: 8.0),
+              padding: const EdgeInsets.only(top: 8.0, left: 8.0),
               child: Row(
                 children: [
                   Expanded(
@@ -57,6 +56,7 @@ class EventWidget extends StatelessWidget {
                                 ),
                                 Text(
                                   event.location,
+                                  style: eventLocationTextStyle,
                                 )
                               ],
                             ),
